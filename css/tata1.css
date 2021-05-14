@@ -1,0 +1,208 @@
+
+.view
+{
+	min-height: 100vh;
+	position: relative;
+}
+#guest
+{
+	border-right: 4px dotted #888888;
+	position: relative;
+}
+img{
+	display: inline-block;
+	
+	width: 25%;
+	height: 100px;
+	margin: 3%;
+}
+fieldset.scheduler-border {
+    border: solid 2px #DDD;
+    padding: 0 10px 10px 10px;
+    
+   font-size: 100%;
+    
+}
+
+legend.scheduler-border {
+    width: auto ;
+    border: none;
+    font-size: 130%;
+    }
+body{
+	background: linear-gradient(to left, #33ccff 0%, #ffffff 100%);
+
+}
+footer .scheduler-border{
+	border-color: #ff6600 ;
+
+	color: #0000ff;
+
+}
+.footer{
+	position: static;
+  /*align-self: center;*/
+  margin-left: 20%;
+  margin-top: 3%;
+  font-weight: bold;
+  bottom: 0;
+  width: 60%;
+  font-size: 200%;
+  text-align: center;
+}
+
+#right{
+	align-self: center;
+	margin-left: 35%;
+	margin-top: 17%;
+	background-color: #0066cc;
+	padding-right: 4%;
+	padding-left: 4%;
+	border-radius: 5px; 
+	box-shadow: 4px 4px 8px #888888;
+
+
+	color: #ffffff;
+}
+input{
+	width: 85%;
+	margin-left: 7.5%;
+	margin-bottom: 4%;
+	border-radius: 5px;
+	border: 1px solid black;
+	box-shadow: 4px 4px 8px #888888;
+}
+
+#b{
+	width: 40%;
+	margin-left: 6%;
+	margin-bottom: 5%;
+	font-size: 80%;
+
+}
+#i{
+	margin: 3%;
+}
+form .scheduler-border{
+	border-color: #0066cc;
+	border-radius: 5px;
+	margin-left: 15%;
+	margin-right: 15%;
+} 
+#OR{
+	padding: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 5px;
+	box-shadow: 4px 4px 8px #888888;
+	position: absolute;
+	right: -6%;
+	top: 45%;
+}
+
+
+@media screen and (max-width: 767px)
+{
+	
+	#guest
+	{
+	margin: 1%;	
+	border-top: 4px dotted #888888;
+	border-right: none;
+	position: relative;
+	margin-top: 8%;
+
+
+	}
+	#OR{
+	padding: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border-radius: 5px;
+	box-shadow: 4px 4px 8px #888888;
+	position: absolute;
+	left: 43%;
+	top: -20%;
+}
+	#right{
+		margin-top: 9%;
+		margin-left: 33%;
+		margin-bottom: 7%;
+	}
+	img{
+		width: 70%;
+		margin-left: 15%;
+	}
+	form{
+		width: 80%;
+		margin-top: 5%;
+		margin-left: 10%;
+	}
+	.footer{
+		font-size: 150%;
+		width: 80%;
+		margin-left: 10%;
+	}
+	#b
+	{
+		font-size: 60%;
+	}
+
+	.footer{
+	position: static;
+  /*align-self: center;*/
+  margin-left: 20%;
+  margin-top: 0%;
+  margin-bottom: 3%;
+  font-weight: bold;
+  bottom: 0;
+  width: 60%;
+  font-size: 150%;
+  text-align: center;
+}
+legend.scheduler-border {
+   
+    font-size: 130%;
+    }
+} 
+@media screen and (max-width: 480px)
+{
+	
+	#guest
+	{
+	
+	margin-top: 8%;
+
+
+	}
+	#OR{
+	
+	left: 43%;
+	top: -25%;
+}
+	#right{
+		margin-top: 15%;
+		margin-left: 27%;
+		margin-bottom: 7%;
+	}
+	
+	form{
+		width: 96%;
+		margin-top: 5%;
+		margin-left: 2%;
+	}
+	.footer{
+		font-size: 150%;
+		width: 75%;
+		margin-left: 10%;
+	}
+	#b
+	{
+		font-size: 60%;
+	}
+	
+legend.scheduler-border {
+   
+    font-size: 110%;
+    }
+} 
